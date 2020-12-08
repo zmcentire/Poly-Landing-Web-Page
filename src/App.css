@@ -1,44 +1,64 @@
 /* Intro Style */
 
 .intro {
-    background: #F3F6F6;
+    background: #F8F9FE;
     text-align: left;
     position: relative;
-    height: 100%;
     width: 100%;
+    height: 887px;
+    left: 0px;
     display: flex;
 }
-
-.intro-header{
-    display: flex;
-    align-items: flex-start;
-}
-
-.intro-header h1 {
-    font-size: 65px;
-    color: indigo;
-    font-weight: bold;
-}
-
-.intro-header h4 {
-    font-size: 30px;
-    color: indigo;
-    justify-self: flex-start;
-}
-
-
-.free-route button {
-    width: 300px;
-    height: 80px;
-    border-radius: 10px;
-    background-color: #72B5C1;
-    color: white;
-    font-size: 25px;
-}
-
 
 .intro-video {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 887px;
+    left: 0px;
+}
+
+.intro-client {
+    display: flex;
+    width: 100%;
+    height: 887px;
+    left: 0px;
+}
+
+.client-title {
+    text-align: center;
+}
+
+.client-title h2 {
+    color: #423C9D;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+.client-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+}
+
+.client-card Card {
+    width: 342px;
+    height: 520px;
+    background-color: #7DB8C3;
+}
+
+.solution-title {
+    text-align: center;
+}
+
+.solution-title h2 {
+    color: #423C9D;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+.solution h3 {
+    color: #262262;
+    font-weight: 500;
 }
