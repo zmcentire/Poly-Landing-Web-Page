@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import styled from "styled-components";
 
 const NavbarWrapper = styled.div`
-    position: realtive;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;

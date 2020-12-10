@@ -3,6 +3,7 @@ import IntroCard from '../Cards/IntroCard';
 import IntroVideo from '../Cards/IntroVideo';
 import ClientCard from '../Cards/ClientCard';
 import SolutionCard from '../Cards/SolutionCard';
+import TeamCard from '../Cards/TeamCard';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <IntroVideo/>
             <ClientCard/>
             <SolutionCard/>
+            <TeamCard/>
         </div>
     )
 }
