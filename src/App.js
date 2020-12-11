@@ -5,6 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Pricing from './Pages/Pricing'
+import Blog from './Pages/Blog'
 
 import './App.css'
 
@@ -21,6 +22,9 @@ const App = () => {
                 </Route>
                 <Route exact path="/pricing">
                     <Pricing />
+                </Route>
+                <Route exact path="/blog">
+                    <Blog/>
                 </Route>
             </Switch>
             <Footer/>
