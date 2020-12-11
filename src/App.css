@@ -62,3 +62,19 @@
     color: #262262;
     font-weight: 500;
 }
+
+.team-title {
+    text-align: center;
+}
+
+.team-title h2 {
+    font-weight: 300;
+    color: #373F41;
+    line-height: 70px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
